@@ -1733,8 +1733,8 @@ msgid "Confirm {0}"
 msgstr "Потврди {0}"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:274
-msgid "Connect ERPNext to Frappe CRM"
-msgstr "Повежи ERPNext са Frappe CRM"
+msgid "Connect ERPNext to Promittens CRM"
+msgstr "Повежи ERPNext са Promittens CRM"
 
 #: frontend/src/pages/Welcome.vue:35
 msgid "Connect your Email"
@@ -1862,7 +1862,7 @@ msgid "Copied to Clipboard"
 msgstr "Копирано у међуспремник"
 
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:156
-msgid "Could not create the Frappe CRM custom fields on {0} automatically. If it is running the latest ERPNext, enable <b>Frappe CRM Data Synchronization</b> in its CRM Settings, Otherwise check the Error Log."
+msgid "Could not create the Promittens CRM custom fields on {0} automatically. If it is running the latest ERPNext, enable <b>Frappe CRM Data Synchronization</b> in its CRM Settings, Otherwise check the Error Log."
 msgstr ""
 
 #: frontend/src/components/Settings/Hierarchy/useRemoveNode.js:16
@@ -3584,12 +3584,12 @@ msgstr "Скрипта обрасца је успешно ажурирана"
 
 #. Name of a Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
-msgid "Frappe CRM"
-msgstr "Frappe CRM"
+msgid "Promittens CRM"
+msgstr "Promittens CRM"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:638
-msgid "Frappe CRM mobile"
-msgstr "Frappe CRM мобилна апликација"
+msgid "Promittens CRM mobile"
+msgstr "Promittens CRM мобилна апликација"
 
 #: frontend/src/components/Settings/emailConfig.js:81
 msgid "Frappe Mail Site"
@@ -3826,7 +3826,7 @@ msgid "How do new leads usually come to you?"
 msgstr ""
 
 #: frontend/src/pages/PersonaForm.vue:108
-msgid "How many people will use Frappe CRM?"
+msgid "How many people will use Promittens CRM?"
 msgstr ""
 
 #. Description of the 'Timeline Timestamp Format' (Select) field in DocType
@@ -8108,7 +8108,7 @@ msgid "Walk-ins"
 msgstr ""
 
 #: frontend/src/components/SalesHierarchyBanner.vue:20
-msgid "We are changing how permissions work in Frappe CRM"
+msgid "We are changing how permissions work in Promittens CRM"
 msgstr ""
 
 #: frontend/src/components/Layouts/AppSidebar.vue:593
@@ -8166,7 +8166,7 @@ msgid "Welcome Message"
 msgstr "Порука добродошлице"
 
 #: frontend/src/pages/PersonaForm.vue:132
-msgid "Welcome to Frappe CRM"
+msgid "Welcome to Promittens CRM"
 msgstr ""
 
 #: frontend/src/pages/Welcome.vue:4
@@ -8310,16 +8310,16 @@ msgid "You do not have Exotel Number set in your Telephony Agent"
 msgstr "Немате подешен Exotel број у свом агенту телефоније"
 
 #: frontend/src/pages/NotPermitted.vue:12
-msgid "You do not have enough permissions to access Frappe CRM. Please contact your administrator if you believe this is an error."
-msgstr "Немате довољно дозвола за приступ Frappe CRM. Молимо Вас да контактирате администратора уколико мислите да је дошло до грешке."
+msgid "You do not have enough permissions to access Promittens CRM. Please contact your administrator if you believe this is an error."
+msgstr "Немате довољно дозвола за приступ Promittens CRM. Молимо Вас да контактирате администратора уколико мислите да је дошло до грешке."
 
 #: crm/integrations/exotel/handler.py:92
 msgid "You do not have mobile number set in your Telephony Agent"
 msgstr "Немате подешен број мобилног телефона у свом агенту телефоније"
 
 #: crm/www/crm.py:18
-msgid "You do not have permission to access Frappe CRM"
-msgstr "Немате дозволу за приступ Frappe CRM"
+msgid "You do not have permission to access Promittens CRM"
+msgstr "Немате дозволу за приступ Promittens CRM"
 
 #: frontend/src/data/document.js:45
 msgid "You do not have permission to access this document"

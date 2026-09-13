@@ -1,21 +1,21 @@
 <div align="center" markdown="1">
 
 <a href="https://frappe.io/products/crm">
-    <img src=".github/logo.svg" height="80" alt="Frappe CRM Logo">
+    <img src=".github/logo.svg" height="80" alt="Promittens CRM Logo">
 </a>
 
-<h1>Frappe CRM</h1>
+<h1>Promittens CRM</h1>
 
 **Simplify Sales, Amplify Relationships**
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/frappe/crm)](https://github.com/frappe/crm/releases)
-[![Frontend](https://github.com/frappe/crm/actions/workflows/frontend-tests.yml/badge.svg)](https://github.com/frappe/crm/actions/workflows/frontend-tests.yml)
-[![Migration](https://github.com/frappe/crm/actions/workflows/migration-test.yml/badge.svg)](https://github.com/frappe/crm/actions/workflows/migration-test.yml)
-[![Server](https://github.com/frappe/crm/actions/workflows/server-tests.yml/badge.svg)](https://github.com/frappe/crm/actions/workflows/server-tests.yml)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Promittens/crm)](https://github.com/Promittens/crm/releases)
+[![Frontend](https://github.com/Promittens/crm/actions/workflows/frontend-tests.yml/badge.svg)](https://github.com/Promittens/crm/actions/workflows/frontend-tests.yml)
+[![Migration](https://github.com/Promittens/crm/actions/workflows/migration-test.yml/badge.svg)](https://github.com/Promittens/crm/actions/workflows/migration-test.yml)
+[![Server](https://github.com/Promittens/crm/actions/workflows/server-tests.yml/badge.svg)](https://github.com/Promittens/crm/actions/workflows/server-tests.yml)
 <div>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset=".github/screenshots/FrappeCRMHeroImage.png">
-        <img width="1402" alt="Frappe CRM Hero Image" src=".github/screenshots/FrappeCRMHeroImage.png">
+        <img width="1402" alt="Promittens CRM Hero Image" src=".github/screenshots/FrappeCRMHeroImage.png">
     </picture>
 </div>
 
@@ -23,13 +23,13 @@
 
 </div>
 
-## Frappe CRM
+## Promittens CRM
 
-Frappe CRM is a simple, affordable, open-source CRM tool designed for modern sales teams with unlimited users. Frappe CRM is crafted for providing a great user experience, packed with features for core CRM activities helping you build strong customer relationships while keeping things clean and organised.
+Promittens CRM is a simple, affordable, open-source CRM tool designed for modern sales teams with unlimited users. Promittens CRM is crafted for providing a great user experience, packed with features for core CRM activities helping you build strong customer relationships while keeping things clean and organised.
 
 ### Motivation
 
-The motivation behind building Frappe CRM stems from the need for a simple, customizable, and open-source solution tailored to modern business needs. Many existing CRMs are either too complex, overly generic, or locked behind steep pricing models that hinder accessibility and flexibility. Frappe CRM was designed to bridge this gap, offering a tool that empowers businesses to manage their customer relationships seamlessly while being easy to adapt to specific workflows. Built on the Frappe framework, it prioritizes usability, extensibility, and affordability, making it an ideal choice for growing teams and organizations looking for a CRM that aligns with their unique processes.
+The motivation behind building Promittens CRM stems from the need for a simple, customizable, and open-source solution tailored to modern business needs. Many existing CRMs are either too complex, overly generic, or locked behind steep pricing models that hinder accessibility and flexibility. Promittens CRM was designed to bridge this gap, offering a tool that empowers businesses to manage their customer relationships seamlessly while being easy to adapt to specific workflows. Built on the Frappe framework, it prioritizes usability, extensibility, and affordability, making it an ideal choice for growing teams and organizations looking for a CRM that aligns with their unique processes.
 
 ### Key Features
 
@@ -98,7 +98,7 @@ This app is compatible with the following versions of Frappe and ERPNext:
 
 ### Managed Hosting
 
-Get started with your personal or business site with a few clicks on Frappe Cloud - our official hosting service.
+The upstream Frappe CRM is available on Frappe Cloud. For this Promittens fork, use the source installation instructions below.
 <div>
 	<a href="https://frappecloud.com/crm/signup" target="_blank">
 		<picture>
@@ -110,7 +110,7 @@ Get started with your personal or business site with a few clicks on Frappe Clou
 
 ### Self Hosting
 
-Follow these steps to set up Frappe CRM in production:
+The following container instructions install upstream Frappe CRM. They do not include this fork’s branding; use the Promittens repository in the source installation instructions below.
 
 **Step 1**: Download the easy install script
 
@@ -135,7 +135,7 @@ Replace the following parameters with your values:
 -   `email.example.com`: Your email address
 -   `subdomain.domain.tld`: Your domain name where CRM will be hosted
 
-The script will set up a production-ready instance of Frappe CRM with all the necessary configurations in about 5 minutes.
+The script will set up a production-ready instance of upstream Frappe CRM with all the necessary configurations in about 5 minutes.
 
 ## Getting Started (Development)
 
@@ -145,7 +145,7 @@ The script will set up a production-ready instance of Frappe CRM with all the ne
 1. In the frappe-bench directory, run `bench start` and keep it running.
 1. Open a new terminal session and cd into `frappe-bench` directory and run following commands:
     ```sh
-    $ bench get-app crm
+    $ bench get-app --branch develop https://github.com/Promittens/crm.git
     $ bench new-site sitename.localhost --install-app crm
     $ bench browse sitename.localhost --user Administrator
     ```
@@ -159,7 +159,7 @@ The script will set up a production-ready instance of Frappe CRM with all the ne
     ```
 1. Now, you can access the site on vite dev server at `http://sitename.localhost:8080`
 
-**Note:** You'll find all the code related to Frappe CRM's frontend inside `frappe-bench/apps/crm/frontend`
+**Note:** You'll find all the code related to Promittens CRM's frontend inside `frappe-bench/apps/crm/frontend`
 
 ### Docker
 
@@ -171,10 +171,10 @@ You need Docker, docker-compose and git setup on your machine. Refer [Docker doc
     cd frappe-crm
 
     # Download the docker-compose file
-    wget -O docker-compose.yml https://raw.githubusercontent.com/frappe/crm/develop/docker/docker-compose.yml
+    wget -O docker-compose.yml https://raw.githubusercontent.com/Promittens/crm/develop/docker/docker-compose.yml
 
     # Download the setup script
-    wget -O init.sh https://raw.githubusercontent.com/frappe/crm/develop/docker/init.sh
+    wget -O init.sh https://raw.githubusercontent.com/Promittens/crm/develop/docker/init.sh
 
 **Step 2**: Run the container and daemonize it
 

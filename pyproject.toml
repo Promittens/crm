@@ -81,5 +81,5 @@ docstring-code-format = true
 
 [project.urls]
 Homepage = "https://frappe.io/crm"
-Repository = "https://github.com/frappe/crm.git"
-"Bug Reports" = "https://github.com/frappe/crm/issues"
+Repository = "https://github.com/Promittens/crm.git"
+"Bug Reports" = "https://github.com/Promittens/crm/issues"

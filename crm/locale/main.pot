@@ -1,11 +1,11 @@
-# Translations template for Frappe CRM.
+# Translations template for Promittens CRM.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
-# This file is distributed under the same license as the Frappe CRM project.
+# This file is distributed under the same license as the Promittens CRM project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Frappe CRM VERSION\n"
+"Project-Id-Version: Promittens CRM VERSION\n"
 "Report-Msgid-Bugs-To: shariq@frappe.io\n"
 "POT-Creation-Date: 2026-09-06 13:03+0000\n"
 "PO-Revision-Date: 2026-09-06 13:03+0000\n"
@@ -1929,7 +1929,7 @@ msgid "Confirm {0}"
 msgstr ""
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:436
-msgid "Connect ERPNext to Frappe CRM"
+msgid "Connect ERPNext to Promittens CRM"
 msgstr ""
 
 #: frontend/src/pages/Welcome.vue:35
@@ -2070,7 +2070,7 @@ msgid "Could not create form"
 msgstr ""
 
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:157
-msgid "Could not create the Frappe CRM custom fields on {0} automatically. If it is running the latest ERPNext, enable <b>Frappe CRM Data Synchronization</b> in its CRM Settings, Otherwise check the Error Log."
+msgid "Could not create the Promittens CRM custom fields on {0} automatically. If it is running the latest ERPNext, enable <b>Frappe CRM Data Synchronization</b> in its CRM Settings, Otherwise check the Error Log."
 msgstr ""
 
 #: frontend/src/components/Modals/DealModal.vue:156
@@ -4112,11 +4112,11 @@ msgstr ""
 
 #. Name of a Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
-msgid "Frappe CRM"
+msgid "Promittens CRM"
 msgstr ""
 
 #: frontend/src/components/Layouts/AppSidebar.vue:729
-msgid "Frappe CRM mobile"
+msgid "Promittens CRM mobile"
 msgstr ""
 
 #: frontend/src/components/Settings/emailConfig.js:81
@@ -4402,7 +4402,7 @@ msgid "How do new leads usually come to you?"
 msgstr ""
 
 #: frontend/src/pages/PersonaForm.vue:108
-msgid "How many people will use Frappe CRM?"
+msgid "How many people will use Promittens CRM?"
 msgstr ""
 
 #. Description of the 'Timeline Timestamp Format' (Select) field in DocType
@@ -9447,7 +9447,7 @@ msgid "Welcome Message"
 msgstr ""
 
 #: frontend/src/pages/PersonaForm.vue:132
-msgid "Welcome to Frappe CRM"
+msgid "Welcome to Promittens CRM"
 msgstr ""
 
 #: frontend/src/pages/Welcome.vue:4
@@ -9618,7 +9618,7 @@ msgid "You do not have Exotel Number set in your Telephony Agent"
 msgstr ""
 
 #: frontend/src/pages/NotPermitted.vue:12
-msgid "You do not have enough permissions to access Frappe CRM. Please contact your administrator if you believe this is an error."
+msgid "You do not have enough permissions to access Promittens CRM. Please contact your administrator if you believe this is an error."
 msgstr ""
 
 #: crm/integrations/exotel/handler.py:102
@@ -9626,7 +9626,7 @@ msgid "You do not have mobile number set in your Telephony Agent"
 msgstr ""
 
 #: crm/www/crm.py:18
-msgid "You do not have permission to access Frappe CRM"
+msgid "You do not have permission to access Promittens CRM"
 msgstr ""
 
 #: frontend/src/data/document.js:85

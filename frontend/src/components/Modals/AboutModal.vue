@@ -5,7 +5,7 @@
         <div class="flex justify-center">
           <div class="flex flex-col items-center">
             <CRMLogo class="mb-3 size-12" />
-            <h3 class="text-2xl-semibold text-ink-gray-9">Frappe CRM</h3>
+            <h3 class="text-2xl-semibold text-ink-gray-9">Promittens CRM</h3>
           </div>
         </div>
         <hr class="border-t my-3 mx-2" />
@@ -53,7 +53,7 @@ let links = [
   },
   {
     label: __('GitHub Repository'),
-    url: 'https://github.com/frappe/crm',
+    url: 'https://github.com/Promittens/crm',
     icon: GitHubIcon,
   },
   {
@@ -63,7 +63,7 @@ let links = [
   },
   {
     label: __('Report an Issue'),
-    url: 'https://github.com/frappe/crm/issues',
+    url: 'https://github.com/Promittens/crm/issues',
     icon: LucideBug,
   },
   {
